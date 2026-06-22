@@ -1,6 +1,6 @@
 const CourseCard = ({ title, rating, reviews, image, duration }) => {
   return (
-    <div className="bg-[#1a1a1a] border border-[#2d2d2d] rounded-2xl overflow-hidden hover:-translate-y-1 transition-transform duration-300">
+    <div className="bg-[#1a1a1a] border border-[#2d2d2d] rounded-2xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#f66c3b]/10 transition-all duration-300">
       <div className="h-40 w-full overflow-hidden">
         {image ? (
           <img src={image} alt={title} className="w-full h-full object-cover" />
