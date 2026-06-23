@@ -21,6 +21,10 @@
   --font-sans: "Mulish", system-ui, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   color: #fafafa;
