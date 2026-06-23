@@ -8,7 +8,7 @@ const CoursesSection = () => {
       rating: '4.9',
       reviews: '1.2k',
       duration: '6 Months',
-      image: 'https://files.codingninjas.in/article_images/data-analytics-1-1704285860.webp'
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const CoursesSection = () => {
       rating: '4.8',
       reviews: '2.5k',
       duration: '9 Months',
-      image: 'https://files.codingninjas.in/article_images/full-stack-web-development-1-1704285896.webp'
+      image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const CoursesSection = () => {
       rating: '4.9',
       reviews: '5.1k',
       duration: '4 Months',
-      image: 'https://files.codingninjas.in/article_images/data-structures-and-algorithms-1-1704285934.webp'
+      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 4,
@@ -32,7 +32,7 @@ const CoursesSection = () => {
       rating: '4.8',
       reviews: '3.8k',
       duration: '4 Months',
-      image: 'https://files.codingninjas.in/article_images/c-foundation-with-data-structures-1-1704285973.webp'
+      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80'
     }
   ]
 
