@@ -10,11 +10,12 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-[#f66c3b] rounded flex items-center justify-center">
-                <span className="text-white font-bold text-lg leading-none">&lt;/&gt;</span>
-              </div>
-              <span className="text-white font-bold text-xl tracking-tight">Coding<span className="text-[#f66c3b]">Ninjas</span></span>
+            <Link to="/" className="bg-white px-3 py-1.5 rounded flex items-center">
+              <img 
+                src="https://files.codingninjas.in/new_cn_logo-29829.svg" 
+                alt="Coding Ninjas" 
+                className="h-6 w-auto"
+              />
             </Link>
           </div>
 

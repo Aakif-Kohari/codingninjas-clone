@@ -8,11 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
           <div className="col-span-1 md:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-[#f66c3b] rounded flex items-center justify-center">
-                <span className="text-white font-bold text-lg leading-none">&lt;/&gt;</span>
-              </div>
-              <span className="text-white font-bold text-xl tracking-tight">Coding<span className="text-[#f66c3b]">Ninjas</span></span>
+            <Link to="/" className="inline-block mb-6 bg-white px-3 py-1.5 rounded">
+              <img 
+                src="https://files.codingninjas.in/new_cn_logo-29829.svg" 
+                alt="Coding Ninjas" 
+                className="h-6 w-auto"
+              />
             </Link>
             <p className="text-[#838485] text-sm leading-relaxed mb-6">
               Get the career you deserve, faster. Join our outcome-focused upskilling platform and learn from the best in the industry.
@@ -58,7 +59,7 @@ const Footer = () => {
               <li className="text-[#838485] text-sm">contact@codingninjas.com</li>
             </ul>
             <div className="mt-6">
-              <img src="https://files.codingninjas.in/play-store-7656.svg" alt="Google Play" className="h-10 cursor-pointer hover:opacity-80 transition-opacity" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" className="h-10 cursor-pointer hover:opacity-80 transition-opacity" />
             </div>
           </div>
 
