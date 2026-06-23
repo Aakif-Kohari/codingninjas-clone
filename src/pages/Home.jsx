@@ -2,6 +2,9 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import StatsBar from '../components/StatsBar'
 import CoursesSection from '../components/CoursesSection'
+import WhyUs from '../components/WhyUs'
+import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -10,6 +13,9 @@ function Home() {
       <Hero />
       <StatsBar />
       <CoursesSection />
+      <WhyUs />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }
